@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap";
+
+$body-color: #333;
+$body-bg: #fff;
+$primary-color: #199800;
+$primary-bg: #fff;
+$primary-border-color: #199800;
+$secondary-color: #6c757d;
+$secondary-bg: #fff;
+$secondary-border-color: #6c757d;
+
+nav {
+  background-color: $primary-color;
+}
+
+button {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+  color: $body-bg !important;
+}
+
+.img-responsive {
+  display: flex;
+  max-width: 25px;
+  height: 25px;
+}
