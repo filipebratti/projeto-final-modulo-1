@@ -1,0 +1,33 @@
+{
+  "pharmacies": [
+    {
+      "id": 1,
+      "razaoSocial": "FARMACIA TESTE LTDA",
+      "cnpj": "12345678901234",
+      "nomeFantasia": "Farmácia Teste",
+      "email": "teste@email.com",
+      "telefone": "4935367168",
+      "celular": "49981993760",
+      "cep": "88511030",
+      "logradouro": "Rua do Centro",
+      "numero": "123",
+      "bairro": "Centro",
+      "cidade": "Balneário Camboriú",
+      "estado": "Santa Catarina",
+      "complemento": "complemento",
+      "latitude": "123",
+      "longitude": "123"
+    }
+  ],
+  "medicines": [
+    {
+      "id": 1,
+      "medicamento": "Dipirona",
+      "laboratorio": "Bayer",
+      "dosagem": "500mg",
+      "tipo": "Comprimido",
+      "descricao": "Dipirona",
+      "preco": "5.00"
+    }
+  ]
+}
