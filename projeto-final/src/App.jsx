@@ -1,11 +1,11 @@
-import Header from './components/Header.jsx'
+import Router from "./Router";
 
 function App() {
-    return (
-    <div>
-      <Header />
-    </div>
-  )
+  return (
+    <>
+      <Router />
+    </>
+  );
 }
 
-export default App
+export default App;
