@@ -17,6 +17,24 @@
       "complemento": "complemento",
       "latitude": "123",
       "longitude": "123"
+    },
+    {
+      "razaoSocial": "Farmacia Teste 2 LTDA",
+      "cnpj": "123456789",
+      "nomeFantasia": "Farmácia Teste 2",
+      "email": "teste@email.com",
+      "telefone": "4932225100",
+      "celular": "49999113041",
+      "cep": "88511030",
+      "logradouro": "Teste",
+      "numero": "45",
+      "bairro": "Centro",
+      "cidade": "Lages",
+      "estado": "SC",
+      "complemento": "Teste",
+      "latitude": "123",
+      "longitude": "123",
+      "id": 2
     }
   ],
   "medicines": [
@@ -28,6 +46,15 @@
       "tipo": "Comprimido",
       "descricao": "Dipirona",
       "preco": "5.00"
+    },
+    {
+      "medicamento": "Sintocalmy",
+      "laboratorio": "Ache",
+      "dosagem": "600mg",
+      "tipo": "Comprimido",
+      "preco": "68,00",
+      "descricao": "Passiflora incarnata L.",
+      "id": 2
     }
   ]
 }
