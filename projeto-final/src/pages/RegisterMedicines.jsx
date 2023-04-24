@@ -11,7 +11,8 @@ function RegisterMedicines() {
   const [preco, setPreco] = useState("");
   const [descricao, setDescricao] = useState("");
 
-  async function handleSubmit() {
+  async function handleSubmit(e) {
+    e.preventDefault()
     const data = {
       medicamento,
       laboratorio,
