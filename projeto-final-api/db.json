@@ -35,6 +35,42 @@
       "latitude": "123",
       "longitude": "123",
       "id": 2
+    },
+    {
+      "razaoSocial": "teste",
+      "cnpj": "123456789",
+      "nomeFantasia": "teste",
+      "email": "teste@email.com",
+      "telefone": "123456789",
+      "celular": "123456789",
+      "cep": "88511029",
+      "logradouro": "Rua João Dias Brascher",
+      "numero": "43",
+      "bairro": "Universitário",
+      "cidade": "Lages",
+      "estado": "SC",
+      "complemento": "teste",
+      "latitude": "123456",
+      "longitude": "123456",
+      "id": 3
+    },
+    {
+      "razaoSocial": "teste",
+      "cnpj": "123456789",
+      "nomeFantasia": "teste",
+      "email": "teste@email.com",
+      "telefone": "123456",
+      "celular": "123456",
+      "cep": "88511029",
+      "logradouro": "Rua João Dias Brascher",
+      "numero": "42",
+      "bairro": "Universitário",
+      "cidade": "Lages",
+      "estado": "SC",
+      "complemento": "teste",
+      "latitude": "123456",
+      "longitude": "123456",
+      "id": 4
     }
   ],
   "medicines": [
@@ -55,6 +91,24 @@
       "preco": "68,00",
       "descricao": "Passiflora incarnata L.",
       "id": 2
+    },
+    {
+      "medicamento": "teste",
+      "laboratorio": "ache",
+      "dosagem": "600mg",
+      "tipo": "comprimido",
+      "preco": "60,00",
+      "descricao": "remédio para alívio dos sintomas da gripe.",
+      "id": 3
+    },
+    {
+      "medicamento": "teste",
+      "laboratorio": "ache",
+      "dosagem": "600mg",
+      "tipo": "comprimido",
+      "preco": "60,00",
+      "descricao": "medicamento para alívio dos sintomas da gripe.",
+      "id": 4
     }
   ]
 }

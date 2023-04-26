@@ -26,7 +26,7 @@ function MedicinesList() {
     <>
       <div className="card-body position-absolute top-50 start-50 translate-middle border p-5">
         <h5 className="card-title text-center mb-3">
-          Lista de Farmácias Cadastradas
+          Lista de Medicamentos Cadastradas
         </h5>
         <ul className="list-group">
           {medicines.map((medicine) => (
