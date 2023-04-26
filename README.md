@@ -1,5 +1,5 @@
 
-# Bratti Central Lab
+# Lages Central Lab
 
 O Bratti Central Lab é um sistema que foi desenvolvido para que empresas do setor farmacêutico possam fazer o cadastro de novas farmácias e medicamentos em seu banco de dados. Facilitando todo o processo de atendimento e entrega de seus produtos.
 
