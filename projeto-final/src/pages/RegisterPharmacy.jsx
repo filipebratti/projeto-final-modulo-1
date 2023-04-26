@@ -20,7 +20,8 @@ function RegisterPharmacy() {
   const [longitude, setLongitude] = useState("");
   const navigate = useNavigate();
 
-  async function handleSubmit() {
+  async function handleSubmit(e) {
+    e.preventDefault()
     const data = {
       razaoSocial,
       cnpj,
