@@ -10,7 +10,7 @@ function Header() {
           alt="Logo Nome do APP"
         />
         <Link className="navbar-brand text-white" to="/">
-          BrattiLab
+          LagesCenterLab
         </Link>
         <button
           className="navbar-toggler"

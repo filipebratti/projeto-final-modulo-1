@@ -20,8 +20,7 @@ function RegisterPharmacy() {
   const [longitude, setLongitude] = useState("");
   const navigate = useNavigate();
 
-  async function handleSubmit(e) {
-    e.preventDefault()
+  async function handleSubmit() {
     const data = {
       razaoSocial,
       cnpj,
@@ -52,6 +51,20 @@ function RegisterPharmacy() {
         // window.location.href = "/cadastrar-novo-medicamento"
       }
     });
+  }
+
+  async function fetchAddress(cep) {
+    if (cep.length === 8) {
+      const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+      const data = await response.json();
+
+      if (!data.erro) {
+        setLogradouro(data.logradouro);
+        setBairro(data.bairro);
+        setCidade(data.localidade);
+        setEstado(data.uf);
+      }
+    }
   }
 
   return (
@@ -99,36 +112,44 @@ function RegisterPharmacy() {
           name="CEP"
           type="number"
           required={true}
-          onChange={(e) => setCep(e.target.value)}
+          onChange={(e) => {
+            setCep(e.target.value);
+            fetchAddress(e.target.value);
+          }}
         />
         <Input
           name="Logradouro"
           type="text"
           required={true}
+          value={logradouro}
           onChange={(e) => setLogradouro(e.target.value)}
         />
         <Input
           name="Número"
           type="number"
           required={true}
+          value={numero}
           onChange={(e) => setNumero(e.target.value)}
         />
         <Input
           name="Bairro"
           type="text"
           required={true}
+          value={bairro}
           onChange={(e) => setBairro(e.target.value)}
         />
         <Input
           name="Cidade"
           type="text"
           required={true}
+          value={cidade}
           onChange={(e) => setCidade(e.target.value)}
         />
         <Input
           name="Estado"
           type="text"
           required={true}
+          value={estado}
           onChange={(e) => setEstado(e.target.value)}
         />
         <Input
